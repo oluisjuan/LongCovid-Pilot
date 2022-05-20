@@ -1,6 +1,1 @@
-# prueba
-
-adsfasdfasd
-
-
-otra línea
+# Proyecto Piloto LongCOVID Aframe
