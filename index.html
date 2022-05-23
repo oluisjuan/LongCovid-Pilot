@@ -20,6 +20,13 @@
             <a-entity cursor="rayOrigin:mouse"></a-entity>
             <a-entity laser-controls="hand: right"></a-entity>
         </a-entity>
+        <!-- Gráfica en json g1.1 -->
+        <a-entity id="data" babia-queryjson="url: data\data-g1_1.json"></a-entity>
+
+        <a-entity babia-barsmap="from: data; legend: true; palette: ubuntu;
+                         x_axis: Nickname; z_axis: Tipo; height: Valor" 
+          position="-10 0 0" scale="1 1 1"></a-entity>
+
     </a-scene>
   </body>
 </html>
