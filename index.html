@@ -20,13 +20,49 @@
             <a-entity cursor="rayOrigin:mouse"></a-entity>
             <a-entity laser-controls="hand: right"></a-entity>
         </a-entity>
-        <!-- Gráfica en json g1.1 -->
-        <a-entity id="data" babia-queryjson="url: data\data-g1_1.json"></a-entity>
+        <!-- Gráfica en json g1.1 V1-->
+        <a-entity id="data-g1-1-V1" babia-queryjson="url: data\data-g1-1-V1.json"></a-entity>
 
-        <a-entity babia-barsmap="from: data; legend: true; palette: ubuntu;
+        <a-entity babia-barsmap="from: data-g1-1-V1; legend: true; palette: ubuntu;
                          x_axis: Nickname; z_axis: Tipo; height: Valor" 
           position="-10 0 0" scale="1 1 1"></a-entity>
 
+        <!-- Gráfica en json g1.1 V2 -->
+        <a-entity id="data-g1-1-V2" babia-queryjson="url: data\data-g1-1-V2.json"></a-entity>
+
+        <a-entity babia-cyls="from: data-g1-1-V2; legend: true; palette: ubuntu;
+                          x_axis: Nickname; radius: Interactions; height: Followers" 
+          position="-10 0 5" scale="1 1 1"></a-entity>
+
+
+        <!-- Gráfica en json g1.2 V1-->
+        <a-entity id="data-g1-2-V1" babia-queryjson="url: data\data-g1-2-V1.json"></a-entity>
+
+        <a-entity babia-cyls="from: data-g1-2-V1; legend: true; palette: ubuntu;
+                         x_axis: Nickname; radius: Influence; height: Mentions" 
+          position="-30 2 30" rotation="0 90 0" scale="0.1 1 0.1"></a-entity>
+
+        <!-- Gráfica en json g2.1 V1-->
+        <a-entity id="data-g2-1-V1" babia-queryjson="url: data\data-g2-1-V1.json"></a-entity>
+
+        <a-entity babia-bars="from: data-g2-1-V1; legend: true; palette: ubuntu;
+                         x_axis: Canal; height: Volume" 
+          position="10 0.3 40" rotation="0 180 0" scale="1 1 1"></a-entity>
+
+        <!-- Gráfica en json g2.1 V2-->
+        <a-entity id="data-g2-1-V2" babia-queryjson="url: data\data-g2-1-V1.json"></a-entity>
+
+        <a-entity babia-pie="from: data-g2-1-V2; legend: true; palette: ubuntu;
+                         key: Canal; size: Volume" 
+          position="-6 4 45" rotation="90 165 0" scale="3 3 3"></a-entity>
+
+
+        <!-- Gráfica en json g2.2 V1-->
+        <a-entity id="data-g2-2-V1" babia-queryjson="url: data\data-g2-2-V1.json"></a-entity>
+
+        <a-entity babia-barsmap="from: data-g2-2-V1; legend: true; palette: ubuntu;
+                         x_axis: Type; z_axis: Date; height: Value" 
+          position="20 0.3 40" rotation="0 145 0" scale="1 1 1"></a-entity>
     </a-scene>
   </body>
-</html>
+</html> 

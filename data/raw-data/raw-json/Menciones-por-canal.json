@@ -1,0 +1,83 @@
+[
+  {
+    "Canal": "Twitter",
+    "Volume": 2939823,
+    "Audience": "55%",
+    "Trend": "-60%",
+    "Estimated Reach": 17091958,
+    "Sentiment Net": -12,
+    "Digirank": 4
+  },
+  {
+    "Canal": "News",
+    "Volume": 1228979,
+    "Audience": "23%",
+    "Trend": "-35%",
+    "Estimated Reach": 117495,
+    "Sentiment Net": 14,
+    "Digirank": 6
+  },
+  {
+    "Canal": "Facebook",
+    "Volume": 1100741,
+    "Audience": "20%",
+    "Trend": "-20%",
+    "Estimated Reach": 91287154,
+    "Sentiment Net": 33,
+    "Digirank": 5
+  },
+  {
+    "Canal": "Instagram",
+    "Volume": 52638,
+    "Audience": "1%",
+    "Trend": "-98%",
+    "Estimated Reach": 0,
+    "Sentiment Net": 65,
+    "Digirank": 1
+  },
+  {
+    "Canal": "Blogs",
+    "Volume": 49987,
+    "Audience": "1%",
+    "Trend": "-66%",
+    "Estimated Reach": 79574,
+    "Sentiment Net": 15,
+    "Digirank": 5
+  },
+  {
+    "Canal": "Forums",
+    "Volume": 2237,
+    "Audience": "0%",
+    "Trend": "-79%",
+    "Estimated Reach": 314,
+    "Sentiment Net": 29,
+    "Digirank": 3
+  },
+  {
+    "Canal": "Web",
+    "Volume": 647,
+    "Audience": "0%",
+    "Trend": "337%",
+    "Estimated Reach": 2898,
+    "Sentiment Net": 25,
+    "Digirank": 5
+  },
+  {
+    "Canal": "Video",
+    "Volume": 442,
+    "Audience": "0%",
+    "Trend": "-98%",
+    "Estimated Reach": 0,
+    "Sentiment Net": 47,
+    "Digirank": 9
+  },
+  {
+    "Canal": "Reviews",
+    "Volume": 3,
+    "Audience": "0%",
+    "Trend": "-98%",
+    "Estimated Reach": 255,
+    "Sentiment Net": 33,
+    "Digirank": 8
+  }
+]

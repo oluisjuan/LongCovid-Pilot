@@ -1,0 +1,587 @@
+[
+  {
+    "Date": "01/05/2021",
+    "Type": "Twitter",
+    "Value": 186275
+  },
+  {
+    "Date": "01/06/2021",
+    "Type": "Twitter",
+    "Value": 400244
+  },
+  {
+    "Date": "01/07/2021",
+    "Type": "Twitter",
+    "Value": 287228
+  },
+  {
+    "Date": "01/08/2021",
+    "Type": "Twitter",
+    "Value": 197073
+  },
+  {
+    "Date": "01/09/2021",
+    "Type": "Twitter",
+    "Value": 220105
+  },
+  {
+    "Date": "01/10/2021",
+    "Type": "Twitter",
+    "Value": 214533
+  },
+  {
+    "Date": "01/11/2021",
+    "Type": "Twitter",
+    "Value": 216132
+  },
+  {
+    "Date": "01/12/2021",
+    "Type": "Twitter",
+    "Value": 262389
+  },
+  {
+    "Date": "01/01/2022",
+    "Type": "Twitter",
+    "Value": 165970
+  },
+  {
+    "Date": "01/02/2022",
+    "Type": "Twitter",
+    "Value": 159647
+  },
+  {
+    "Date": "01/03/2022",
+    "Type": "Twitter",
+    "Value": 343789
+  },
+  {
+    "Date": "01/04/2022",
+    "Type": "Twitter",
+    "Value": 238867
+  },
+  {
+    "Date": "01/05/2022",
+    "Type": "Twitter",
+    "Value": 47723
+  },
+  {
+    "Date": "01/05/2021",
+    "Type": "News",
+    "Value": 112753
+  },
+  {
+    "Date": "01/06/2021",
+    "Type": "News",
+    "Value": 162012
+  },
+  {
+    "Date": "01/07/2021",
+    "Type": "News",
+    "Value": 161972
+  },
+  {
+    "Date": "01/08/2021",
+    "Type": "News",
+    "Value": 116009
+  },
+  {
+    "Date": "01/09/2021",
+    "Type": "News",
+    "Value": 97449
+  },
+  {
+    "Date": "01/10/2021",
+    "Type": "News",
+    "Value": 70265
+  },
+  {
+    "Date": "01/11/2021",
+    "Type": "News",
+    "Value": 79609
+  },
+  {
+    "Date": "01/12/2021",
+    "Type": "News",
+    "Value": 97485
+  },
+  {
+    "Date": "01/01/2022",
+    "Type": "News",
+    "Value": 111274
+  },
+  {
+    "Date": "01/02/2022",
+    "Type": "News",
+    "Value": 89031
+  },
+  {
+    "Date": "01/03/2022",
+    "Type": "News",
+    "Value": 59496
+  },
+  {
+    "Date": "01/04/2022",
+    "Type": "News",
+    "Value": 56767
+  },
+  {
+    "Date": "01/05/2022",
+    "Type": "News",
+    "Value": 14905
+  },
+  {
+    "Date": "01/05/2021",
+    "Type": "Facebook",
+    "Value": 107014
+  },
+  {
+    "Date": "01/06/2021",
+    "Type": "Facebook",
+    "Value": 145581
+  },
+  {
+    "Date": "01/07/2021",
+    "Type": "Facebook",
+    "Value": 133343
+  },
+  {
+    "Date": "01/08/2021",
+    "Type": "Facebook",
+    "Value": 98436
+  },
+  {
+    "Date": "01/09/2021",
+    "Type": "Facebook",
+    "Value": 93961
+  },
+  {
+    "Date": "01/10/2021",
+    "Type": "Facebook",
+    "Value": 85285
+  },
+  {
+    "Date": "01/11/2021",
+    "Type": "Facebook",
+    "Value": 84631
+  },
+  {
+    "Date": "01/12/2021",
+    "Type": "Facebook",
+    "Value": 116602
+  },
+  {
+    "Date": "01/01/2022",
+    "Type": "Facebook",
+    "Value": 110201
+  },
+  {
+    "Date": "01/02/2022",
+    "Type": "Facebook",
+    "Value": 74147
+  },
+  {
+    "Date": "01/03/2022",
+    "Type": "Facebook",
+    "Value": 38602
+  },
+  {
+    "Date": "01/04/2022",
+    "Type": "Facebook",
+    "Value": 10846
+  },
+  {
+    "Date": "01/05/2022",
+    "Type": "Facebook",
+    "Value": 2093
+  },
+  {
+    "Date": "01/05/2021",
+    "Type": "Instagram",
+    "Value": 5488
+  },
+  {
+    "Date": "01/06/2021",
+    "Type": "Instagram",
+    "Value": 7103
+  },
+  {
+    "Date": "01/07/2021",
+    "Type": "Instagram",
+    "Value": 6386
+  },
+  {
+    "Date": "01/08/2021",
+    "Type": "Instagram",
+    "Value": 5544
+  },
+  {
+    "Date": "01/09/2021",
+    "Type": "Instagram",
+    "Value": 5465
+  },
+  {
+    "Date": "01/10/2021",
+    "Type": "Instagram",
+    "Value": 3571
+  },
+  {
+    "Date": "01/11/2021",
+    "Type": "Instagram",
+    "Value": 3527
+  },
+  {
+    "Date": "01/12/2021",
+    "Type": "Instagram",
+    "Value": 4963
+  },
+  {
+    "Date": "01/01/2022",
+    "Type": "Instagram",
+    "Value": 4452
+  },
+  {
+    "Date": "01/02/2022",
+    "Type": "Instagram",
+    "Value": 3247
+  },
+  {
+    "Date": "01/03/2022",
+    "Type": "Instagram",
+    "Value": 2030
+  },
+  {
+    "Date": "01/04/2022",
+    "Type": "Instagram",
+    "Value": 699
+  },
+  {
+    "Date": "01/05/2022",
+    "Type": "Instagram",
+    "Value": 166
+  },
+  {
+    "Date": "01/05/2021",
+    "Type": "Blog",
+    "Value": 5231
+  },
+  {
+    "Date": "01/06/2021",
+    "Type": "Blog",
+    "Value": 6904
+  },
+  {
+    "Date": "01/07/2021",
+    "Type": "Blog",
+    "Value": 6144
+  },
+  {
+    "Date": "01/08/2021",
+    "Type": "Blog",
+    "Value": 4211
+  },
+  {
+    "Date": "01/09/2021",
+    "Type": "Blog",
+    "Value": 4211
+  },
+  {
+    "Date": "01/10/2021",
+    "Type": "Blog",
+    "Value": 3145
+  },
+  {
+    "Date": "01/11/2021",
+    "Type": "Blog",
+    "Value": 3300
+  },
+  {
+    "Date": "01/12/2021",
+    "Type": "Blog",
+    "Value": 3694
+  },
+  {
+    "Date": "01/01/2022",
+    "Type": "Blog",
+    "Value": 4249
+  },
+  {
+    "Date": "01/02/2022",
+    "Type": "Blog",
+    "Value": 3650
+  },
+  {
+    "Date": "01/03/2022",
+    "Type": "Blog",
+    "Value": 2554
+  },
+  {
+    "Date": "01/04/2022",
+    "Type": "Blog",
+    "Value": 2020
+  },
+  {
+    "Date": "01/05/2022",
+    "Type": "Blog",
+    "Value": 679
+  },
+  {
+    "Date": "01/05/2021",
+    "Type": "Forums",
+    "Value": 601
+  },
+  {
+    "Date": "01/06/2021",
+    "Type": "Forums",
+    "Value": 925
+  },
+  {
+    "Date": "01/07/2021",
+    "Type": "Forums",
+    "Value": 69
+  },
+  {
+    "Date": "01/08/2021",
+    "Type": "Forums",
+    "Value": 76
+  },
+  {
+    "Date": "01/09/2021",
+    "Type": "Forums",
+    "Value": 118
+  },
+  {
+    "Date": "01/10/2021",
+    "Type": "Forums",
+    "Value": 70
+  },
+  {
+    "Date": "01/11/2021",
+    "Type": "Forums",
+    "Value": 48
+  },
+  {
+    "Date": "01/12/2021",
+    "Type": "Forums",
+    "Value": 18
+  },
+  {
+    "Date": "01/01/2022",
+    "Type": "Forums",
+    "Value": 34
+  },
+  {
+    "Date": "01/02/2022",
+    "Type": "Forums",
+    "Value": 26
+  },
+  {
+    "Date": "01/03/2022",
+    "Type": "Forums",
+    "Value": 59
+  },
+  {
+    "Date": "01/04/2022",
+    "Type": "Forums",
+    "Value": 143
+  },
+  {
+    "Date": "01/05/2022",
+    "Type": "Forums",
+    "Value": 50
+  },
+  {
+    "Date": "01/05/2021",
+    "Type": "Web",
+    "Value": 450
+  },
+  {
+    "Date": "01/06/2021",
+    "Type": "Web",
+    "Value": 140
+  },
+  {
+    "Date": "01/07/2021",
+    "Type": "Web",
+    "Value": 19
+  },
+  {
+    "Date": "01/08/2021",
+    "Type": "Web",
+    "Value": 3
+  },
+  {
+    "Date": "01/09/2021",
+    "Type": "Web",
+    "Value": 10
+  },
+  {
+    "Date": "01/10/2021",
+    "Type": "Web",
+    "Value": 2
+  },
+  {
+    "Date": "01/11/2021",
+    "Type": "Web",
+    "Value": 6
+  },
+  {
+    "Date": "01/12/2021",
+    "Type": "Web",
+    "Value": 4
+  },
+  {
+    "Date": "01/01/2022",
+    "Type": "Web",
+    "Value": 3
+  },
+  {
+    "Date": "01/02/2022",
+    "Type": "Web",
+    "Value": 1
+  },
+  {
+    "Date": "01/03/2022",
+    "Type": "Web",
+    "Value": 4
+  },
+  {
+    "Date": "01/04/2022",
+    "Type": "Web",
+    "Value": 2
+  },
+  {
+    "Date": "01/05/2022",
+    "Type": "Web",
+    "Value": 3
+  },
+  {
+    "Date": "01/05/2021",
+    "Type": "Video",
+    "Value": 5
+  },
+  {
+    "Date": "01/06/2021",
+    "Type": "Video",
+    "Value": 11
+  },
+  {
+    "Date": "01/07/2021",
+    "Type": "Video",
+    "Value": 6
+  },
+  {
+    "Date": "01/08/2021",
+    "Type": "Video",
+    "Value": 3
+  },
+  {
+    "Date": "01/09/2021",
+    "Type": "Video",
+    "Value": 11
+  },
+  {
+    "Date": "01/10/2021",
+    "Type": "Video",
+    "Value": 17
+  },
+  {
+    "Date": "01/11/2021",
+    "Type": "Video",
+    "Value": 23
+  },
+  {
+    "Date": "01/12/2021",
+    "Type": "Video",
+    "Value": 18
+  },
+  {
+    "Date": "01/01/2022",
+    "Type": "Video",
+    "Value": 11
+  },
+  {
+    "Date": "01/02/2022",
+    "Type": "Video",
+    "Value": 21
+  },
+  {
+    "Date": "01/03/2022",
+    "Type": "Video",
+    "Value": 35
+  },
+  {
+    "Date": "01/04/2022",
+    "Type": "Video",
+    "Value": 208
+  },
+  {
+    "Date": "01/05/2022",
+    "Type": "Video",
+    "Value": 73
+  },
+  {
+    "Date": "01/05/2021",
+    "Type": "Reviews",
+    "Value": 1
+  },
+  {
+    "Date": "01/06/2021",
+    "Type": "Reviews",
+    "Value": 1
+  },
+  {
+    "Date": "01/07/2021",
+    "Type": "Reviews",
+    "Value": 0
+  },
+  {
+    "Date": "01/08/2021",
+    "Type": "Reviews",
+    "Value": 1
+  },
+  {
+    "Date": "01/09/2021",
+    "Type": "Reviews",
+    "Value": 0
+  },
+  {
+    "Date": "01/10/2021",
+    "Type": "Reviews",
+    "Value": 0
+  },
+  {
+    "Date": "01/11/2021",
+    "Type": "Reviews",
+    "Value": 0
+  },
+  {
+    "Date": "01/12/2021",
+    "Type": "Reviews",
+    "Value": 0
+  },
+  {
+    "Date": "01/01/2022",
+    "Type": "Reviews",
+    "Value": 0
+  },
+  {
+    "Date": "01/02/2022",
+    "Type": "Reviews",
+    "Value": 0
+  },
+  {
+    "Date": "01/03/2022",
+    "Type": "Reviews",
+    "Value": 0
+  },
+  {
+    "Date": "01/04/2022",
+    "Type": "Reviews",
+    "Value": 0
+  },
+  {
+    "Date": "01/05/2022",
+    "Type": "Reviews",
+    "Value": 0
+  }
+]
