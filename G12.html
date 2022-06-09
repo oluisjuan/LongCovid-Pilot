@@ -15,19 +15,25 @@
          <a-light type="point" intensity="1" position="-10 20 30"></a-light>
       
         <!-- Camera -->
-        <a-entity movement-controls="fly: true" position="0 5 20">
+        <a-entity movement-controls="fly: true" position="0 3 20">
             <a-entity camera position="0 0 0" look-controls></a-entity>
             <a-entity cursor="rayOrigin:mouse"></a-entity>
             <a-entity laser-controls="hand: right"></a-entity>
         </a-entity>
 
-        <!-- Gráfica en json g1.2 V1-->
+        <!-- Gráfica en json g1.2 V1 maqueta-->
         <a-entity id="data-g1-2-V1" babia-queryjson="url: data\data-g1-2-V1.json"></a-entity>
 
         <a-entity babia-cyls="from: data-g1-2-V1; legend: true; palette: ubuntu;
-                         x_axis: Nickname; radius: Influence; height: Mentions" 
-          position="-10 0 0" rotation="0 90 0" scale="0.1 1 0.1"></a-entity>
+                         x_axis: Nickname; radius: Mentions; height: Influence" 
+          position="-0.3 2.9 19.7" rotation="0 0 0" scale="0.005 0.005 0.005" ></a-entity>
+        
+          <!-- Gráfica en json g1.2 V1-->
+        <a-entity id="data-g1-2-V1" babia-queryjson="url: data\data-g1-2-V1.json"></a-entity>
 
+        <a-entity babia-cyls="from: data-g1-2-V1; legend: true; palette: ubuntu;
+                         x_axis: Nickname; radius: Mentions; height: Influence" 
+          position="20 1 25" rotation="0 180 0" scale="0.5 0.5 0.5" ></a-entity>
     </a-scene>
   </body>
 </html> 
