@@ -34,12 +34,23 @@
                           x_axis: Nickname; radius: Interactions; height: Followers" 
           position="-10 0 5" scale="1 1 1"></a-entity>
 
-        <!-- Gráfica en json g1.1 V3 -->
+        <!-- Gráfica en csv g1.1 V3 -->
         <a-entity id="data-g1-1-V3" babia-querycsv="url: data\csv\data_g1-1-V3.csv"></a-entity>
 
         <a-entity babia-bubbles="from: data-g1-1-V3; legend: true; palette: ubuntu;
                           x_axis: Nickname; z_axis: zval; radius: Followers; height: Interactions" 
           position="-20 2 0" scale="0.0000001 0.0000001 0.0000001"></a-entity>
+
+        <!-- Gráfica en csv g1.1 V4 | Prueba para separar los valores en dos gráficas y filtrados los 10 con más followers-->
+        <a-entity id="data-g1-1-V4" babia-querycsv="url: data\csv\data-g1-1-V4.csv"></a-entity>
+
+        <a-entity babia-bars="from: data-g1-1-V4; legend: true; palette: ubuntu;
+                          x_axis: Nickname; height: Interactions" 
+          position="0 0.5 30" scale="1 1 1"></a-entity>
+
+          <a-entity babia-bars="from: data-g1-1-V4; legend: true; palette: ubuntu;
+                          x_axis: Nickname; height: Followers" 
+          position="0 0.5 35" scale="1 1 1"></a-entity>
 
     </a-scene>
   </body>
