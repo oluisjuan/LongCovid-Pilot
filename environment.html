@@ -9,21 +9,81 @@
   </head>  
   <body>
     <a-scene>
-        <!-- Environment -->
+        <!-- Environment 
          <a-entity environment ></a-entity>
+      -->
+      
+      
+      
         <!-- Light -->
          <a-light type="point" intensity="1" position="-10 20 30"></a-light>
       
+	<!-- Sky - Background Image -->
+	<a-sky src="https://cdn.glitch.global/6129616c-d685-405f-9e5a-3869316b8be0/entorno_universidad0001.jpg?v=1655202508267" rotation="0 0 0"></a-sky>
+      
+      <!-- Environment 
+         Sky - Background Image - Alternative
+<a-sky src="https://cdn.glitch.global/6129616c-d685-405f-9e5a-3869316b8be0/sky_002.png?v=1648480931644" rotation="0 0 0"></a-sky>
 
-         <a-light type="point" intensity="1" position="-10 20 30"></a-light>
 
+      -->
+
+	<!-- Virtual Environment Elements -->
+
+	<!-- Floor -->
+	<a-box position="0 0 20" rotation="0 0 0" width=40 depth="60" color="#FFFFFF"></a-box>
+
+	<!-- Front wall 1-->
+	<a-box position="-15 10 -10" rotation="0 0 0" width=8 depth="2" height="20" color="#FFFFFF"></a-box>
+
+   <!-- Front wall 2-->
+	<a-box position="15 10 -10" rotation="0 0 0" width=8 depth="2" height="20" color="#FFFFFF"></a-box>
+      
+	<!-- Left wall 1-->
+	<a-box position="-20 10 -5" rotation="0 0 0" width=2 depth="12" height="20" color="#FFFFFF"></a-box>
+      
+  <!-- Left wall 02-->
+	<a-box position="-20 10 20" rotation="0 0 0" width=2 depth="12" height="20" color="#FFFFFF"></a-box>
+
+       <!-- Left wall 03-->
+	<a-box position="-20 10 45" rotation="0 0 0" width=2 depth="12" height="20" color="#FFFFFF"></a-box>
+      
+      
+      
+	<!-- Right wall 01 -->
+	<a-box position="20 10 -5" rotation="0 0 0" width=2 depth="12" height="20" color="#FFFFFF"></a-box>
+
+	<!-- Right wall 02 -->
+	<a-box position="20 10 20" rotation="0 0 0" width=2 depth="12" height="20" color="#FFFFFF"></a-box>
+      
+    <!-- Right wall 03 -->
+	<a-box position="20 10 45" rotation="0 0 0" width=2 depth="12" height="20" color="#FFFFFF"></a-box>
+
+        <!-- Ceiling -->
+	<a-box position="0 20 20" rotation="0 0 0" width=40 depth="60" color="#FFFFFF"></a-box>
+
+<!-- Back wall 01-->
+	<a-box position="-15 10 50" rotation="0 0 0" width=8 depth="2" height="20" color="#FFFFFF"></a-box>
+
+   <!-- Back wall 02-->
+	<a-box position="15 10 50" rotation="0 0 0" width=8 depth="2" height="20" color="#FFFFFF"></a-box>
+      
+   <!-- ReferenceSphere ZeroPointRadius2-->
+     <a-sphere position="0 0 0" radius="2" color="#EF2D5E"></a-sphere>
+      
+       <!-- Reference 1 Unit CubeZeroPoint-->
+	<a-box position="8 0 0" rotation="0 0 0" width=1 depth="1" height="10" color="#FFFFFF"></a-box>
+      
+      <!-- Reference 2 Unit Cube-->
+	<a-box position="-8 0 0" rotation="0 0 0" width=2 depth="2" height="10" color="#FFFFFF"></a-box>
+      
+      
         <!-- Camera -->
         <a-entity movement-controls="fly: true" position="0 5 20">
             <a-entity camera position="0 0 0" look-controls></a-entity>
             <a-entity cursor="rayOrigin:mouse"></a-entity>
             <a-entity laser-controls="hand: right"></a-entity>
         </a-entity>
-        
     </a-scene>
   </body>
-</html> 
+</html>
