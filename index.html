@@ -73,10 +73,10 @@
                   <a-box position="0 0 0" rotation="0 0 0" width="0.1" depth="0.1" height="10" color="#FFFFFF"></a-box>
                       -->
                       <!-- Reference CubeTable01-->
-                  <a-box position="-0.8 0.35 0.25" rotation="0 45 0" width="0.4" depth="0.3" height="0.7" color="#FFFFFF"></a-box>
+                  <a-box position="-1.4 0.35 0.25" rotation="0 45 0" width="0.4" depth="0.3" height="0.7" color="#FFFFFF"></a-box>
 
                       <!-- Reference CubeTable02-->
-                  <a-box position="0.8 0.35 0" rotation="0 -45 0" width="0.8" depth="0.3" height="0.7" color="#E6E6E6"></a-box>  
+                  <a-box position="0.8 0.35 0" rotation="0 -45 0" width="0.8" depth="0.4" height="0.7" color="#E6E6E6"></a-box>  
 
                       <!-- Reference CubeTable03-->
                   <a-box position="-0.8 0.35 -0.85" rotation="0 45 0" width="0.8" depth="0.3" height="0.7" color="#878787"></a-box>
@@ -86,12 +86,12 @@
            
         <!-- Graphics -->
             
-                <!-- Gráfica en csv g1.1 V1
+                <!-- Gráfica en csv g1.1 V1-->
                   <a-entity id="data-g1-1-V1" babia-querycsv="url: data\filtrado20\data_g1_1_f20.csv"></a-entity>
 
                   <a-entity babia-barsmap="from: data-g1-1-V1; legend: true; palette: ubuntu;
                          x_axis: Nickname; z_axis: Tipo; height: Valor" 
-                    position="-1.1 0.75 -1.85" rotation="0 0 0" scale="0.1 0.1 0.1"></a-entity>-->
+                    position="-1 0.75 -0.65" rotation="0 45 0" scale="0.05 0.05 0.05"></a-entity>
 
                 <!-- Text g1.1 título 
                   <a-entity position="0.5 2.5 -2.15" 
@@ -112,12 +112,12 @@
                 </a-entity>-->
 
 
-                <!-- Gráfica en csv g1.2 V1 maqueta
+                <!-- Gráfica en csv g1.2 V1 maqueta-->
                 <a-entity id="data-g1-2-V1" babia-querycsv="url: data\filtrado20\data_g1_2_f20.csv"></a-entity>
 
                 <a-entity babia-cyls="from: data-g1-2-V1; legend: true; palette: ubuntu;
                                 x_axis: Nickname; radius: Mentions; height: Influence" 
-                position="1.7 0.7 -1.2" rotation="0 -90 0" scale="0.05 0.05 0.05" ></a-entity>-->
+                position="0.58 0.7 -1.69" rotation="0 -45 0" scale="0.025 0.025 0.025" ></a-entity>
 
                 <!-- Text g1.2 título 
                 <a-entity position="1.85 2.7 1.57"
@@ -144,7 +144,7 @@
 
                 <a-entity babia-pie="from: data-g2-1-V2; legend: true; palette: ubuntu;
                                 key: Canal; size: Volume" 
-                position="-0.74 0.9 0.275" rotation="100 225 0" scale="0.15 0.15 0.15"></a-entity>
+                position="-1.4 0.9 0.275" rotation="100 225 0" scale="0.15 0.15 0.15"></a-entity>
 
                  <!-- Text g2.1 título 
                 <a-entity position="-0.25 2.7 1.9"
@@ -166,12 +166,12 @@
                                 wrapCount: 13">
                 </a-entity>-->
 
-                <!-- Gráfica en json g2.2 V1
+                <!-- Gráfica en json g2.2 V1-->
                 <a-entity id="data-g2-2-V1" babia-queryjson="url: data\data-g2-2-V1.json"></a-entity>
 
                 <a-entity babia-barsmap="from: data-g2-2-V1; legend: true; palette: ubuntu;
                                 x_axis: Type; z_axis: Date; height: Value" 
-                position="-2.15 0.75 -0.5" rotation="0 0 0" scale="0.08 0.08 0.08"></a-entity>-->
+                position="1.05 0.75 0.195" rotation="0 -135 0" scale="0.04 0.04 0.04"></a-entity>
 
                   <!-- Text g2.2 título 
                   <a-entity position="-2.5 2.8 -1.55"
