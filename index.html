@@ -246,7 +246,7 @@
                   </a-entity>
 
         <!-- Camera -->
-        <a-entity movement-controls="fly:false" position="0 0 2">
+        <a-entity movement-controls="fly:false" position="0.5 0 2" rotation="0 -80 0">
             <a-entity camera position="0 1.6 0" look-controls></a-entity>
             <a-entity cursor="rayOrigin:mouse"></a-entity>
             <a-entity laser-controls="hand: right"></a-entity>
@@ -305,6 +305,19 @@
                      height="0.3">
             </a-image>
 
+
+<!-- Text PULSE AQUÍ ANTES DE COMENZAR -->
+<a-entity position="2.4 2 1.68"
+rotation="0 -90 0" 
+scale="1.2 1.2 1.2"
+text="value: PULSE AQUI ANTES DE COMENZAR;
+      color:#000000;
+      font:exo2bold;
+      wrapCount: 13"></a-entity>
+
+
+<!--SONIDOS-->
+<a-sound src="src: url(sounds\cosmic-glow-6703.mp3)" autoplay="true"></a-sound>
 <!-- sonido audio 1-->
 <a-assets> 
   <img id="play" src="material\play.png"/>
@@ -325,7 +338,7 @@
             color="#FFFFFF"
             scale="0.2 0.2 0.2"
             visible="false"
-            sound="src: url(material\pruebasonido.mp3); on: click"></a-entity>
+            sound="src: url(sounds\LongCOVID_clip0.mp3); on: click"></a-entity>
 
 <!-- sonido audio 2 grafica 1-->
 <a-assets> 
@@ -345,7 +358,7 @@
             color="#FFFFFF"
             scale="0.2 0.2 0.2"
             visible="false"
-            sound="src: url(material\pruebasonido.mp3); on: click"></a-entity>
+            sound="src: url(sounds\LongCOVID_clip1.mp3); on: click"></a-entity>
 
 <!-- sonido audio 3 grafica 2-->
 <a-assets> 
@@ -365,7 +378,7 @@
             color="#FFFFFF"
             scale="0.2 0.2 0.2"
             visible="false"
-            sound="src: url(material\pruebasonido.mp3); on: click"></a-entity>
+            sound="src: url(sounds\LongCOVID_clip2.mp3); on: click"></a-entity>
 
 <!-- sonido audio 4 grafica 3-->
 <a-assets> 
@@ -385,7 +398,7 @@
             color="#FFFFFF"
             scale="0.2 0.2 0.2"
             visible="false"
-            sound="src: url(material\pruebasonido.mp3); on: click"></a-entity>
+            sound="src: url(sounds\LongCOVID_clip3.mp3); on: click"></a-entity>
             
 <!-- sonido audio 5 grafica 4-->
 <a-assets> 
@@ -405,7 +418,7 @@
             color="#FFFFFF"
             scale="0.2 0.2 0.2"
             visible="false"
-            sound="src: url(material\pruebasonido.mp3); on: click"></a-entity>
+            sound="src: url(sounds\LongCOVID_clip4.mp3); on: click"></a-entity>
 
 
     </a-scene>
